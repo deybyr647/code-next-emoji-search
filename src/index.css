@@ -1,0 +1,37 @@
+.input {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  background-color: aquamarine;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: thistle;
+}
+
+.results {
+  background-color: cornflowerblue;
+  padding: 20px;
+  text-align: center;
+}
+
+.title{
+  background-color: teal;
+}
+
+.results ul {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+
+.results li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+.results span{
+  margin-left: 20px;
+}
